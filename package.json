@@ -2,12 +2,12 @@
   "name": "greflash",
   "version": "1.0.0",
   "description": "A flashcard app for GRE preparation",
-  "main": "Main.js",
+  "main": "main.js",
   "bin": {
-    "greflash": "./Main.js"
+    "greflash": "./main.js"
   },
   "scripts": {
-    "start": "node Main.js"
+    "start": "node main.js"
   },
   "dependencies": {
     "child_process": "^1.0.2",
@@ -25,7 +25,7 @@
       "./FlashcardDatabase",
       "./Flashcard",
       "./GenerateOptions",
-      "./Main",
+      "./main",
       "./CheckAnswer",
       "./WeightedRandomSelection"
     ],
