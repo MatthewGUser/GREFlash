@@ -1,0 +1,35 @@
+{
+  "name": "greflash",
+  "version": "1.0.0",
+  "description": "A flashcard app for GRE preparation",
+  "main": "main.js",
+  "bin": {
+    "greflash": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "sqlite": "^5.1.1",
+    "sqlite3": "https://github.com/mapbox/node-sqlite3/tarball/master"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.1"
+  },
+  "pkg": {
+    "assets": [
+      "Database/Data.db"
+    ],
+    "scripts": [
+      "./FlashcardDatabase",
+      "./Flashcard",
+      "./GenerateOptions",
+      "./Main",
+      "./CheckAnswer",
+      "./WeightedRandomSelection"
+    ],
+    "targets": [
+      "node18-win-x64"
+    ]
+  }
+}
