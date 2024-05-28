@@ -1,7 +1,7 @@
 // checkAnswer.js
 
 const displayFlashcard = require('./flashcard.js');
-const updateWeight = require('./updateWeight.js');
+const updateWeight = require('./UpdateWeight.js');
 const getUserInput = require('./getUserInput.js');
 
 async function checkAnswer(correctAnswer, options) {
